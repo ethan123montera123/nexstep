@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is designed to [briefly describe the purpose of the project]. It helps to [explain what the project does, its features, and its benefits].
+This project is designed to Create a website for nexstep. It helps to create websites, applications and softwares for other business owners.
 
 ## Prerequisites
 
