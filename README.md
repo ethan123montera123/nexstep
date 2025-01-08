@@ -53,8 +53,8 @@ You should see the project running locally on your machine.
 ### Available Scripts
 
 These are the commands available in your project:
-
-* ```bash
+* 
+```bash
 npm run dev
 ``` 
 
