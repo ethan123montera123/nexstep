@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Contact">
                 <section className="contact-section pt-space pb-space">
                     <div className="container">
                         <div className="row g-xl-7 g-4 mb-xxl-7 mb-6 justify-content-center">

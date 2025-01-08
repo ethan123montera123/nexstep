@@ -14,7 +14,7 @@ export default function Service() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Our Services">
+            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Services">
                 <div>
                     <section className="service-section pt-space pb-space">
                         <div className="container">
@@ -49,12 +49,11 @@ export default function Service() {
                                         </span>
                                         <span className="mtitle d-block mt-6">
                                             <Link href="/service-details" className="white-clr whitehover">
-                                                Digitalization
+                                                Dynamic Website
                                             </Link>
                                         </span>
                                         <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
-                                            We build intelligent next-generation solutions at the intersection of new
-                                            business opportunities and technological innovations.
+                                        At Apexel Development, we understand that your website is the digital face of your business. We create dynamic websites that adapt to your needs, offering smooth user experiences, responsive designs, and scalable solutions. Whether you’re building an online store, a portfolio, or a blog, our team ensures that your website grows with your business.
                                         </span>
                                         
                                         {/* Contact Us Button */}
@@ -70,20 +69,26 @@ export default function Service() {
                                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                                         <ul className="modern-list d-grid gap-2">
                                             <li className="d-flex align-items-center gap-2">
-                                                <i className="fas fa-chevron-right" /> Legacy Modernization
+                                                <i className="fas fa-chevron-right" /> Responsive Design
                                             </li>
                                             <li className="d-flex align-items-center gap-2">
-                                                <i className="fas fa-chevron-right" /> Solution Design
+                                                <i className="fas fa-chevron-right" /> Tailored to Your Brand
                                             </li>
                                             <li className="d-flex align-items-center gap-2">
-                                                <i className="fas fa-chevron-right" /> Technology Enabling
+                                                <i className="fas fa-chevron-right" /> Content Management Systems (CMS)
                                             </li>
                                             <li className="d-flex align-items-center gap-2">
-                                                <i className="fas fa-chevron-right" /> Mobile-First Systems
+                                                <i className="fas fa-chevron-right" /> Interactive Features
+                                            </li>
+                                            <li className="d-flex align-items-center gap-2">
+                                                <i className="fas fa-chevron-right" /> Search Engine Optimized
+                                            </li>
+                                            <li className="d-flex align-items-center gap-2">
+                                                <i className="fas fa-chevron-right" /> Scalable Solutions
                                             </li>
                                         </ul>
                                         <div className="tab-remove-thumb">
-                                            <img src="/assets/img/service/tab1.png" alt="img" />
+                                            <img src="/assets/img/services/dynamic.avif" alt="img" />
                                         </div>
                                     </div>
                                 </div>

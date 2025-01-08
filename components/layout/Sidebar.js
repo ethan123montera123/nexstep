@@ -9,7 +9,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                 </div>
                 <div className="sub-contact-wrapper d-grid">
                     <Link href="/" className="side-logo">
-                        <img src="/assets/img/logo/NexStep.png" alt="img" />
+                        <img className="w-50" src="assets/img/logo/NexStep.png" alt="logo" />
                     </Link>
                     <p>
                     We provide custom software and website development services in Australia, delivering tailored digital solutions with cutting-edge technology and exceptional user experiences. Let us bring your ideas to life.
@@ -46,7 +46,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                             </div>
                         </div>
                     </div>
-                    <ul className="common-social d-flex align-items-center gap-2 mb-xxl-10 mb-xl-9 mb-8">
+                    {/* <ul className="common-social d-flex align-items-center gap-2 mb-xxl-10 mb-xl-9 mb-8">
                         <li data-aos="zoom-in-right" data-aos-duration={1400}>
                             <Link href="/#" className="d-center">
                                 <svg width={10} height={16} viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 </svg>
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                     <Link href="/contact" className="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-xl-3 py-2 px-2 rounded">
                         <span className="icons">
                             <i className="fas fa-arrow-up white" />

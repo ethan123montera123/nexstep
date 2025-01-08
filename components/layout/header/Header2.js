@@ -12,7 +12,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="d-lg-flex flex-xl-nowrap flex-wrap align-items-center justify-content-lg-between">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <Link href="/" className="brand-logo">
-                                        <img className="w-100" src="assets/img/logo/NexStep.png" alt="logo" />
+                                        <img className="w-50" src="assets/img/logo/NexStep.png" alt="logo" />
                                     </Link>
                                     <button className={`navbar-toggle-btn d-block d-lg-none ${isMobileMenu ? "open" : ""}`} type="button" onClick={handleMobileMenu}>
                                         <span />
@@ -38,9 +38,11 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <span className="stext">
+                                        <a href="tel:+61425517878">
+                                            <span className="stext">
                                                 +61 425517878
-                                        </span>
+                                            </span>
+                                        </a>
                                     </Link>
                                     <div className="remove-click remove-clickbg-adding d-center m-auto" onClick={handleSidebar}>
                                         <i className="fas fa-bars" />
