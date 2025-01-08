@@ -54,6 +54,10 @@ You should see the project running locally on your machine.
 
 These are the commands available in your project:
 
+* ```bash
+npm run dev
+``` 
+
 * npm run dev: Starts the development server. This should be run during development.
 * npm run build: Builds the project for production. This prepares the project for deployment.
 * npm start: Runs the production version of the project.
