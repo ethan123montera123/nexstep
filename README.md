@@ -53,11 +53,37 @@ You should see the project running locally on your machine.
 ### Available Scripts
 
 These are the commands available in your project:
-* 
-```bash
-npm run dev
-``` 
 
 * npm run dev: Starts the development server. This should be run during development.
 * npm run build: Builds the project for production. This prepares the project for deployment.
 * npm start: Runs the production version of the project.
+
+### Environment Variables
+
+If the project requires specific environment variables, make sure to set them up before running the project. Add your environment variables to a .env file in the root of the project.
+
+Example .env file:
+
+```bash
+REACT_APP_API_URL=https://your-api-url.com
+REACT_APP_OTHER_ENV_VARIABLE=value
+```
+
+### Contributing
+We welcome contributions! If you want to contribute, follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your feature (git checkout -b feature-branch).
+3. Make your changes and commit them (git commit -am 'Add new feature').
+4. Push your branch to your fork (git push origin feature-branch).
+5. Open a pull request to the main repository.
+
+### License
+
+Specify the license under which your project is distributed. For example:
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+```bash
+Replace placeholders like `your-username`, `your-repo-name`, and others with your actual project details. This format will guide users through the process of setting up and running your project.
+```
