@@ -8,9 +8,9 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
             <i className="fas fa-times" />
                 </div>
                 <div className="sub-contact-wrapper d-grid">
-                    <Link href="/" className="side-logo">
+                    {/* <Link href="/" className="side-logo">
                         <img src="/assets/img/logo/logo.png" alt="img" />
-                    </Link>
+                    </Link> */}
                     <p>
                     We provide custom software and website development services in Australia, delivering tailored digital solutions with cutting-edge technology and exceptional user experiences. Let us bring your ideas to life.
                     </p>
